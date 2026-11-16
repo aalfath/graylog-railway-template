@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-16: Deploy on Railway button
+
+- README: add the Deploy on Railway button for the published template `graylog`. No change to the services.
+
 ## 2026-11-16: Graylog 7.2.2
 
 First release of the template.

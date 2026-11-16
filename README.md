@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/graylog?utm_medium=integration&utm_source=button&utm_campaign=graylog)
+
 # Graylog on Railway
 
 A Railway template for [Graylog](https://graylog.org/) Open, the open-source log management platform: collect, index, search and alert on logs from your servers and apps.

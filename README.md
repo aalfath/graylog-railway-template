@@ -24,6 +24,7 @@ Versions follow Graylog's [compatibility matrix](https://go2docs.graylog.org/cur
 | OpenSearch | `PORT` | `9200` | OpenSearch HTTP port (private network only) |
 | MongoDB | `MONGO_INITDB_ROOT_USERNAME` | `graylog` | MongoDB root user |
 | MongoDB | `MONGO_INITDB_ROOT_PASSWORD` | generated | MongoDB root password |
+| all three | `RAILWAY_DEPLOYMENT_DRAINING_SECONDS` | `30` | Time each service gets to shut down cleanly on a redeploy (Graylog flushes its journal, OpenSearch and MongoDB close their files) |
 
 The deploy page asks for nothing. After the deploy, open the Graylog domain and sign in as `admin` with the `GRAYLOG_ROOT_PASSWORD` value from the Graylog service's Variables tab.
 
